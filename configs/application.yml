@@ -1,0 +1,6 @@
+# 공통 설정 
+# 우선순위 profile > 폴더 서비스명 > application 공통파일
+management:
+  endpoints:
+    web:
+      exposure: refresh

@@ -3,8 +3,8 @@
 management:
   endpoints:
     web:
-      exposure: refresh
-
+      exposure:
+        include: refresh
   endpoint:
     refresh:
       enabled: true

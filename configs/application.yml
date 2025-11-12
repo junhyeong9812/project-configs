@@ -6,6 +6,15 @@ spring:
       ribbon:
         enabled: false # Netflix Ribbon 대신 Spring Cloud LoadBalancer 사용
 
+feign:
+  client:
+    config:
+      default:  # 모든 클라이언트에 적용
+        connectTimeout: 5000 # 연결 시도(소켓 연결) 타임아웃: 밀리초 단위. 5000ms = 5초
+        readTimeout: 5000 # 서버 응답을 기다리는 읽기 타임아웃:
+        loggerLevel: full # 로거 레벨: NONE, BASIC, HEADERS, FULL 중 하나.
+
+
 management:
   endpoints:
     web:

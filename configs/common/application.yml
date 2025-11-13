@@ -90,9 +90,9 @@ management:
     sampling:
       probability: 1.0
 
-logging:
-  level:
-    feign: DEBUG
+#logging:
+#  level:
+#    feign: DEBUG
 
 resilience4j:
   retry:  # 재시도 설정

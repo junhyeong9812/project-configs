@@ -10,4 +10,4 @@ message3: '테스트18 메시지2'
 rabbit:
   exchange: sparta
   queue: hub
-  routing-key: product.#
+  routing-key: 'product.#'

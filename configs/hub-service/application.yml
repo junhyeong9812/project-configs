@@ -6,3 +6,8 @@ message:
   test2: '(수정18)테스트 메시지2'
 
 message3: '테스트18 메시지2'
+
+rabbit:
+  exchange: sparta
+  queue: hub
+  routing-key: product.#

@@ -1,2 +1,8 @@
 server:
   port: 3002
+
+rabbit:
+  product:
+    exchange: sparta
+    queue: hub
+    routing-key: 'product.#'
